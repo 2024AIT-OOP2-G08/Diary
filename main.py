@@ -1,6 +1,7 @@
-from DiarySample import DiarySample
+from diaries.DiarySample import DiarySample
+from diaries.MisakiDiary import MisakiDiary
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [DiarySample(), MisakiDiary(),]
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
