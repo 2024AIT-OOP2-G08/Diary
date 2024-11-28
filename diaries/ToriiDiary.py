@@ -1,4 +1,4 @@
-from diaries.AbstractDiary import AbstractDiary
+from AbstractDiary import AbstractDiary
 class ToriiDiary(AbstractDiary):
     def get_date(self):
         return "2024-11-28"
