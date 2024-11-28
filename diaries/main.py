@@ -8,8 +8,7 @@ diaries = [
     MisakiDiary(),
     IkedaDiary(),
     ToriiDiary(),
-    AsariDiary()
-
+    AsariDiary(),
     HibiDiary(),
     ]
 for d in diaries:
