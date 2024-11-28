@@ -1,11 +1,13 @@
 from IkedaDiary import IkedaDiary
 from MisakiDiary import MisakiDiary
 from ToriiDiary import ToriiDiary
+from AsariDiary import AsariDiary
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     MisakiDiary(),
     IkedaDiary(),
     ToriiDiary(),
+    AsariDiary()
     ]
 for d in diaries:
     print("---------------------------------")
